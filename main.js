@@ -102,3 +102,21 @@ for (let i = 0; i < color_elements.length; i++){
   colors.push(color);
 }
 
+/* SOME MORE M A G I C */
+/* see also = making things work */
+
+document.querySelector('.generator-button').addEventListener('click', () => {
+  /* event listener for the button, generates new colors */
+  for (let i = 0; i < colors.length; i++){
+    colors[i].generateHex();
+  }
+});
+
+document.addEventListener('keypress', (e)=> {
+  /* event listener for the space-bar, generates new colors */
+  if (e.code.toLowerCase() === 'space'){
+    for (let i = 0; i < colors.length; i++){
+      colors[i].generateHex();
+    }
+  }
+});
