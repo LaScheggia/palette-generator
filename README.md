@@ -1,5 +1,7 @@
 # (Random) Color Palette Generator
+
 Using only html, css and Js.
+
 
 ## What can I do?
 Pressing space or clicking on the button, you can generate a color palette. 
