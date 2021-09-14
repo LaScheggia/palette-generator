@@ -1,0 +1,31 @@
+/* establishing variables */
+:root{
+  --primary: rgb(173, 20, 87);
+  --secondary: rgb(240, 98, 146);
+  --light: rgb(224, 224, 224);
+  --grey: rgb(97, 97, 97);
+  --dark: rgb(38, 50, 56);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body{
+  background: var(--light);
+}
+
+main{
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1{
+  color: var(--dark);
+  font-size: 3rem;
+  font-weight: 700;
+}
