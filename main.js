@@ -69,8 +69,10 @@ class Color {
 
 const color_elements = document.querySelectorAll('.colors .color');
 
+/* preparing empty array for colors push */
 const colors = [];
 
+/* actually generating color with a for cycle */
 for (let i = 0; i < color_elements.length; i++){
   const color_element = color_elements[i];
 
